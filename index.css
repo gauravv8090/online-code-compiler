@@ -1,0 +1,41 @@
+*{
+    background-color: whitesmoke;
+    background-image: linear-gradient(180deg, rgb(200, 239, 237), rgb(255, 255, 255));
+}
+#top{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    height: 40vh;
+    background-color: whitesmoke;
+    /* background-image: none; */
+}
+
+#html-code, #css-code, #js-code{
+    font-size: 20px;
+    background-color: white;
+    background-image: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 0;
+}
+
+#Bottom{
+    width: 80%;
+    margin: 40px auto;
+    /* border: 1px solid teal; */
+    height: 47vh;
+    background-color: white;
+    background-image: none;
+}
+#output{
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: white;
+}
